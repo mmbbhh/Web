@@ -1,0 +1,515 @@
+#tmenu {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background: rgb(49, 49, 49);
+	height: 43px;
+	z-index: 999;
+}
+
+#tmenu .button,
+#tmenu .button2 {
+	background: #33bdef;
+	background-image: linear-gradient(to bottom, #33bdef, #019ad2);
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 13px;
+	padding: 3px 15px 3px 15px;
+	border: 0px;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 15px;
+	text-align: initial;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+#tmenu .button2 {
+	background-image: linear-gradient(to bottom, #ef8332, #d26700);
+}
+
+#tmenu #sch {
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: white;
+	padding-left: 17px;
+	padding-top: 6px;
+	float: left;
+	font-size: 27px;
+}
+
+#tmenu .button3 {
+	width: 60px;
+	background: #0099CC;
+	border: 0px;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	height: 100%;
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+
+#tmenu .button3-content {
+	display: none;
+	position: absolute;
+	margin-top: 43px;
+	width: 220px;
+	margin-left: -155px;
+	background: #0099CC;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 12px 1px 12px 12px;
+}
+
+#tmenu .button3-content .logo {
+	float: left;
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: white;
+	padding: none;
+	border: none;
+	cursor: pointer;
+}
+
+#tmenu .button3-content .logo i {
+	color: rgb(170, 170, 170);
+	margin-bottom: 3px;
+}
+
+#tmenu .button3-content .logo:hover {
+	color: red;
+}
+
+#tmenu .button3-content .search {
+	width: 160px;
+	height: 30px;
+	border-width: 0;
+	padding: 0px;
+	margin: 0px;
+	color: rgb(100, 100, 100);
+	font-size: 13px;
+	float: left;
+}
+
+#lmenu {
+	position: fixed;
+	top: 43px;
+	width: 100px;
+	background: rgb(49, 49, 49);
+	height: 100%;
+	z-index: 999;
+}
+
+#lmenu .menu {
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid black;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: white;
+	position: relative;
+}
+
+.menus {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid black;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: white;
+}
+
+.more {
+	display: none;
+	width: 160px;
+	height: 40px;
+	background: rgb(49, 49, 49);
+	margin-left: 100px;
+	border: none;
+	border-left: 2px solid #0099CC;
+	text-decoration: none;
+	text-align: initial;
+	white-space: nowrap;
+	outline: none;
+	position: absolute;
+	cursor: pointer;
+	color: white;
+}
+
+.menu:hover,
+.menus:hover,
+.more:hover {
+	background: #8463A9;
+	color: white;
+}
+
+.menus:hover .more {
+	display: block;
+}
+
+#message {
+	height: 30px;
+	width: 100%;
+	margin-top: 43px;
+	background: rgba(0, 153, 204, 0.9);
+	line-height: 30px;
+	margin-bottom: 16px;
+}
+
+#message .gg {
+	height: 100%;
+	width: auto;
+	overflow: hidden;
+	color: white;
+}
+
+#bac {
+	position: initial;
+	width: calc(100% - 116*1px);
+	height: 100%;
+	margin-left: 116px;
+	margin-right: 16px;
+}
+
+#bac #up {
+	width: 100%;
+	height: 590px;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 25px;
+	margin-left: -8px;
+}
+
+#bac #up .new {
+	float: left;
+	width: 380px;
+	height: 537px;
+	margin-top: 20px;
+	margin-left: 44px;
+}
+
+#bac #up .nw {
+	width: 100%;
+	height: 50%;
+	margin-bottom: 3px;
+	background: rgba(255, 255, 255, 0.9);
+	border: 1px solid rgb(225, 225, 225);
+	box-shadow: 2px 2px 5px #888888;
+}
+
+#bac #up .np {
+	width: 100%;
+	height: 50%;
+	background: rgba(255, 255, 255, 0.9);
+	border: 1px solid rgb(225, 225, 225);
+	box-shadow: 2px 2px 5px #888888;
+}
+
+#bac #up .bt {
+	padding-left: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-bottom: 5px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	border-bottom: 1px solid rgb(225, 225, 225);
+	background: rgb(255, 255, 255);
+}
+
+#bac #up .text {
+	height: 200px;
+	width: 345px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#bac #up i {
+	margin-top: 12px;
+	margin-left: 8px;
+	margin-bottom: 7px;
+}
+
+#bac #middle {
+	width: 100%;
+	height: 400px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 25px;
+	margin-left: -8px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+#bac #middle .mw {
+	float: left;
+	width: 420px;
+	height: 370px;
+	background: rgba(255, 255, 255, 0.9);
+	margin-left: 68px;
+	margin-top: 15px;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+#bac #middle .head {
+	width: 100%;
+	height: 50px;
+	background: rgb(255, 255, 255);
+	border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+#bac #middle .head_t {
+	width: 360px;
+	height: 50px;
+	float: left;
+	border-left: 1px solid rgb(218, 218, 218);
+}
+
+#bac #middle .bt_s {
+	margin-top: 17px;
+	margin-left: 6px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#bac #middle .text_2 {
+	height: 300px;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#bac #middle i {
+	margin-top: 10px;
+	margin-left: 3px;
+	margin-bottom: 5px;
+}
+
+#bac #middle a:hover {
+	margin-left: 4px;
+}
+
+#bac #bottom {
+	width: 100%;
+	height: 665px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 25px;
+	margin-left: -8px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+#bac #bottom .head {
+	width: 100%;
+	height: 50px;
+	background: rgb(240, 240, 240);
+	border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+#bac #bottom .head_t {
+	width: 1335px;
+	height: 50px;
+	float: left;
+	border-left: 1px solid rgb(218, 218, 218);
+}
+
+#bac #bottom .bt_s {
+	margin-top: 17px;
+	margin-left: 6px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#bac #bottom .picture {
+	width: 1397px;
+	height: 635px;
+	margin-left: 31px;
+	margin-top: 15px;
+	box-shadow: 2px 2px 5px #888888;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+#bac #bottom .picture .first {
+	width: 873px;
+	height: 372px;
+	display: inline-block;
+	overflow: hidden;
+	box-shadow: 0 0 4px -1px #000;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+#bac #bottom .picture .gallery img {
+	height: 100%;
+}
+
+#bac #bottom .picture .gallery .next {
+	width: 240px;
+	height: 180px;
+	display: inline-block;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 10px;
+	box-shadow: 0 0 4px -1px #000;
+}
+
+#bac #bottom .picture .gallery .then {
+	width: 263px;
+	height: 180px;
+	display: inline-block;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 1px;
+	box-shadow: 0 0 4px -1px #000;
+}
+
+#bac #last {
+	width: 100%;
+	height: 1000px;
+	background: blanchedalmond;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 25px;
+	margin-left: -8px;
+	margin-top: 30px;
+}
+
+#bac #last .bod {
+	width: 100%px;
+	height: 1000px;
+	margin-left: 31px;
+	position: absolute;
+	overflow: hidden;
+}
+
+#bac #last a:hover {}
+
+#bac #last .bigt {
+	width: 673px;
+	height: 400px;
+	background: rgba(255, 255, 255, 0.9);
+	margin-top: 15px;
+	box-shadow: 2px 2px 5px #888888;
+	float: left;
+}
+
+#bac #last .head {
+	width: 100%;
+	height: 50px;
+	background: rgb(240, 240, 240);
+	border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+#bac #last .head_t {
+	width: 610px;
+	height: 50px;
+	float: left;
+	border-left: 1px solid rgb(218, 218, 218);
+}
+
+#bac #last .bt_s {
+	margin-top: 17px;
+	margin-left: 6px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#bac #last .bigt .l_p {
+	width: 320px;
+	height: 320px;
+	margin-top: 15px;
+	margin-left: 15px;
+	transition: all .5s;
+	position: absolute;
+	overflow: hidden;
+}
+
+#bac #last .bigt .l_p .jie {
+	width: 320px;
+	height: 160px;
+	background: rgba(0, 0, 0, 0);
+	position: absolute;
+	z-index: 999;
+	margin-top: 320px;
+	transition: all .5s;
+	color: white;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#bac #last .bigt .l_p:hover .jie {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.8) 98%, #FFFFFF 100%);
+	transition: all .5s;
+	margin-top: 160px;
+}
+
+#bac #last .bigt .r_w {
+	width: 310px;
+	height: 350px;
+	margin-left: 350px;
+	border-left: 1px solid #ddd;
+	border-image: linear-gradient(#ddd, #000, #ddd) 30 30;
+	position: absolute;
+}
+
+#bac #last .bigt .r_w .text {
+	height: 320px;
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+#bac #last .bigt .r_w .text i {
+	margin-top: 12px;
+	margin-left: 8px;
+	margin-bottom: 7px;
+}
+
+#bac #last .end {
+	width: 1397px;
+	height: 107px;
+	margin-top: 25px;
+	float: left;
+	background: rgba(255, 255, 255, 0.9);
+	box-shadow: 2px 2px 5px #888888;
+}
+
+#bac #last .end .link {
+	float: left;
+	margin-right: 20px;
+	margin-top: 18px;
+	display: block;
+	font-size: 17px;
+	font-family: "微软雅黑";
+}
+
+#theend {
+	width: 100%;
+	height: 80px;
+	background: rgb(49, 49, 49);
+}
+
+#theend .my {
+	height: 100%;
+	margin-left: 100px;
+	text-align: center;
+}
+
+#theend .my h1 {
+	color: #BBBBBB;
+	line-height: 20px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	line-height: 20px;
+}
